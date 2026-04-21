@@ -21,7 +21,7 @@ export default async function SeoPage() {
           <h1 className="text-2xl font-bold">SEO Monitoring</h1>
           <p className="text-muted-foreground">Track SEO health across all blogs</p>
         </div>
-        <Link href="/seo/fix-queue">
+        <Link href="/admin/seo/fix-queue">
           <Button>
             Fix Queue
             {criticalCount > 0 && (

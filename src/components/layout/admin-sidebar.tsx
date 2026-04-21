@@ -54,14 +54,14 @@ const navGroups: NavGroup[] = [
       { title: "Clients", href: "/admin/clients", icon: Users },
       { title: "Blogs", href: "/admin/blogs", icon: FileText },
       { title: "SEO", href: "/admin/seo", icon: Search },
-      { title: "Fix Queue", href: "/admin/fix-queue", icon: AlertTriangle },
+      { title: "Fix Queue", href: "/admin/seo/fix-queue", icon: AlertTriangle },
     ],
   },
   {
     label: "Operations",
     items: [
       { title: "Renewals", href: "/admin/renewals", icon: RefreshCw },
-      { title: "Post Schedule", href: "/admin/post-schedule", icon: CalendarClock },
+      { title: "Post Schedule", href: "/admin/posts", icon: CalendarClock },
       { title: "Messages", href: "/admin/messages", icon: MessageSquare },
     ],
   },
